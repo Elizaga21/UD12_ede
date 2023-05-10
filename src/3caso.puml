@@ -3,7 +3,9 @@ actor Agente
 
 
   Agente --> (Evaluar Solicitud de Crédito)
-  (Solicitar Informacón adicional al cliente) ..> (Evaluar Solicitud de Crédito) : <<extend>>
+  (Enviar Solicitud de Crédito Empresarial) --> (Evaluar Solicitud de Crédito)
+    (Enviar Solicitud de Crédito Personal) --> (Evaluar Solicitud de Crédito)
+
 
 
 

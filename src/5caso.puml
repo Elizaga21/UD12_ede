@@ -1,0 +1,11 @@
+@startuml
+left to right direction
+
+actor ClienteBancario as CB
+actor ClienteCorporativo as CC <<descendiente>>
+actor ClienteNormal as CN <<descendiente>>
+
+CB --> CC
+CB --> CN
+
+@enduml

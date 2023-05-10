@@ -1,0 +1,20 @@
+@startuml
+actor Empleado
+
+
+  Empleado --> (Introducir Pedido)
+  Empleado --> (Cancelar Pedido)
+  Empleado --> (Borrar Pedido)
+  Empleado --> (buscar Pedidos)
+  Empleado --> (Obtener Estado Pedidos)
+  Empleado --> (Alta Cliente)
+  Empleado --> (Buscar Cliente)
+(Introducir Pedido) <.. (Buscar Cliente) : include
+(Introducir Pedido) <.. (Pago con Tarjeta) : exclude
+(Introducir Pedido) <.. (Pago en Cuenta) : exclude
+(Introducir Pedido) <.. (Alta Cliente) : exclude
+(Obtener Estado Pedidos) <.. (buscar Pedidos) : include
+(Cancelar Pedido) <.. (buscar Pedidos) : include
+
+
+@enduml

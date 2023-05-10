@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="033d1b69-4f1d-47ea-8a34-46d5e3381d53" name="Changes" comment="primer caso">
-      <change afterPath="$PROJECT_DIR$/src/2caso.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/3caso.puml" afterDir="false" />
+    <list default="true" id="033d1b69-4f1d-47ea-8a34-46d5e3381d53" name="Changes" comment="Segundo y tercer caso creado correctamente">
+      <change afterPath="$PROJECT_DIR$/src/4caso.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/5caso.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/6caso.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/7caso.puml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3caso.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/3caso.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683752047876</updated>
-      <workItem from="1683752049341" duration="3258000" />
+      <workItem from="1683752049341" duration="6791000" />
     </task>
     <task id="LOCAL-00001" summary="primer caso">
       <created>1683753591089</created>
@@ -80,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683753591089</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Segundo y tercer caso creado correctamente">
+      <created>1683755375712</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683755375712</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +121,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primer caso" />
-    <option name="LAST_COMMIT_MESSAGE" value="primer caso" />
+    <MESSAGE value="Segundo y tercer caso creado correctamente" />
+    <option name="LAST_COMMIT_MESSAGE" value="Segundo y tercer caso creado correctamente" />
   </component>
 </project>
